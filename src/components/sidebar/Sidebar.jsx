@@ -89,6 +89,70 @@ export default function Sidebar() {
                         </span>
                     </li>
                 </ul>
+
+                <button className="sidebar-btn">Show More</button>
+
+                <hr className="sidebar-hr" />
+
+                <ul className="sidebar-friend-list">
+                    <li className="sidebar-friend">
+                        <img className="sidebar-friend-img" src="/assets/person/img-2.jpg" alt="" />
+                        <span className="sidebar-friend-name">Jon Doe</span>
+                    </li>
+                    <li className="sidebar-friend">
+                        <img className="sidebar-friend-img" src="/assets/person/img-2.jpg" alt="" />
+                        <span className="sidebar-friend-name">Jon Doe</span>
+                    </li>
+                    <li className="sidebar-friend">
+                        <img className="sidebar-friend-img" src="/assets/person/img-2.jpg" alt="" />
+                        <span className="sidebar-friend-name">Jon Doe</span>
+                    </li>
+                    <li className="sidebar-friend">
+                        <img className="sidebar-friend-img" src="/assets/person/img-2.jpg" alt="" />
+                        <span className="sidebar-friend-name">Jon Doe</span>
+                    </li>
+                    <li className="sidebar-friend">
+                        <img className="sidebar-friend-img" src="/assets/person/img-2.jpg" alt="" />
+                        <span className="sidebar-friend-name">Jon Doe</span>
+                    </li>
+                    <li className="sidebar-friend">
+                        <img className="sidebar-friend-img" src="/assets/person/img-2.jpg" alt="" />
+                        <span className="sidebar-friend-name">Jon Doe</span>
+                    </li>
+                    <li className="sidebar-friend">
+                        <img className="sidebar-friend-img" src="/assets/person/img-2.jpg" alt="" />
+                        <span className="sidebar-friend-name">Jon Doe</span>
+                    </li>
+                    <li className="sidebar-friend">
+                        <img className="sidebar-friend-img" src="/assets/person/img-2.jpg" alt="" />
+                        <span className="sidebar-friend-name">Jon Doe</span>
+                    </li>
+                    <li className="sidebar-friend">
+                        <img className="sidebar-friend-img" src="/assets/person/img-2.jpg" alt="" />
+                        <span className="sidebar-friend-name">Jon Doe</span>
+                    </li>
+                    <li className="sidebar-friend">
+                        <img className="sidebar-friend-img" src="/assets/person/img-2.jpg" alt="" />
+                        <span className="sidebar-friend-name">Jon Doe</span>
+                    </li>
+                    <li className="sidebar-friend">
+                        <img className="sidebar-friend-img" src="/assets/person/img-2.jpg" alt="" />
+                        <span className="sidebar-friend-name">Jon Doe</span>
+                    </li>
+                    <li className="sidebar-friend">
+                        <img className="sidebar-friend-img" src="/assets/person/img-2.jpg" alt="" />
+                        <span className="sidebar-friend-name">Jon Doe</span>
+                    </li>
+                    <li className="sidebar-friend">
+                        <img className="sidebar-friend-img" src="/assets/person/img-2.jpg" alt="" />
+                        <span className="sidebar-friend-name">Jon Doe</span>
+                    </li>
+                    <li className="sidebar-friend">
+                        <img className="sidebar-friend-img" src="/assets/person/img-2.jpg" alt="" />
+                        <span className="sidebar-friend-name">Jon Doe</span>
+                    </li>
+
+                </ul>
             </div>
         </div>
     )
