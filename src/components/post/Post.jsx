@@ -3,12 +3,10 @@ import { MoreVert } from "@mui/icons-material"
 
 
 export default function Post({ post, Users }) {
+
     const foundUserObj = Users.find((u) => u.id === post.userId)
     const userName = foundUserObj.username ? foundUserObj.username : "Oops name not found!"
-
-    const userPhoto = foundUserObj.profilePicture ? foundUserObj.profilePicture : "Oops name not found!"
-    console.log(foundUserObj.profilePicture)
-    console.log("rendering ...")
+    const userPhoto = foundUserObj.profilePicture ? foundUserObj.profilePicture : "/assets/person/default-placeholder.jpg"
 
     return (
         <div className="post">
