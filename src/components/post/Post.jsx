@@ -1,8 +1,18 @@
 import "./post.css"
 import { MoreVert } from "@mui/icons-material"
+import { useState } from "react"
 
 
 export default function Post({ post, Users }) {
+
+    // sets the initial state (useState(1) would be 1 "like" in UI)
+    const [like, setLike] = useState(post.like)
+    const [isLiked, setIsLike] = useState(false)
+
+    const likeHandler = () => {
+        setLike(isLiked ? like - 1 : like + 1)
+        setIsLike(!isLiked)
+    }
 
     const foundUserObj = Users.find((u) => u.id === post.userId)
     const userName = foundUserObj.username ? foundUserObj.username : "Oops name not found!"
@@ -29,9 +39,9 @@ export default function Post({ post, Users }) {
                 </div>
                 <div className="post-bottom">
                     <div className="post-bottom-left">
-                        <img className="like-icon" src="/assets/like.png" alt="" />
-                        <img className="like-icon" src="/assets/heart.png" alt="" />
-                        <span className="post-like-counter">{post.like} people liked</span>
+                        <img className="like-icon" src="/assets/like.png" onClick={likeHandler} alt="" />
+                        <img className="like-icon" src="/assets/heart.png" onClick={likeHandler} alt="" />
+                        <span className="post-like-counter">{like} people liked</span>
                     </div>
                     <div className="post-botton-right">
                         <span className="post-comment-text">{post.comment} comments</span>
