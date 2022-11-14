@@ -1,7 +1,7 @@
 # TeachMe 
 An updated version of my [uTeach-iLearn-UI](https://github.com/calebwagner/uTeach-iLearn-UI) app.
 
-⚠️ This is currently a work in progress ⚠️
+⚠️ ⚠️ This is currently a work in progress ⚠️ ⚠️
 
 App full-stack app that connets those who want to learn a new subject connect with those who know how.
 
